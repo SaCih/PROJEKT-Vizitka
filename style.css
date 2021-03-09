@@ -2,6 +2,118 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+
+
+.kraska {
+  border-radius: 50%;
+  border: 3px solid white;
+  position:absolute;
+  right: -75px;
+  top: -75px;
+  box-shadow: 5px 5px rgba(66, 64, 64, 0.3)
+}
+
+
+h1 {
+  font-family:"Nunito", sans-serif;
+  font-size: 36px;
+  font-weight:700;
+  color:#d63031;
+  text-align:left;
+  margin-bottom: 30px;
+  margin-top: 0;
+  padding: 0;
+  }
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight:400;
+  color: rgb(59, 53, 53);
+  text-align: justify;
+  background-color: #b2bec3;
+
+}
+
+
+
+
+.whitebox {
+  background-color: white;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right:30px;
+  margin-top: 150px;
+  position: relative;
+  left: 33%;
+  width: 490px;
+  box-sizing:content-box;
+  border-radius: 10px;
+  position:sticky;
+  box-shadow: 5px 5px rgba(110, 107, 107, 0.1);
+
+
+}
+
+
+.omne section{
+  padding:0;
+  margin:0;
+}
+
+.odkazt {
+  background-color: #1da1f2 ;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 30px;
+
+}
+
+.odkazf {
+  background-color: #3b5998;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0;
+  padding:10px;
+
+}
+
+
+.odkazt a {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  font-variant-caps: all-petite-caps;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  
+  padding: 10px 10px;
+}
+
+.odkazf a {
+  color:white;
+  font-weight: bold;
+  font-size: 18px;
+  font-variant-caps: all-petite-caps;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  padding: 10px 10px;
+  }
+
+.odkazt a:hover,
+.odkazt a:focus {
+  background-color: #0b7bc1;
+}
+
+.odkazf a:hover,
+.odkazf a:focus {
+  background-color:#2b406e;
+}
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
